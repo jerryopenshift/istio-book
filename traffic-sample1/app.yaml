@@ -15,7 +15,7 @@ spec:
   selector:
     app: service1
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: service1-v1
@@ -56,7 +56,7 @@ spec:
   selector:
     app: service2
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: service2-v1
@@ -96,7 +96,7 @@ spec:
   selector:
     app: service3
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: service3-v1
@@ -136,7 +136,7 @@ spec:
   selector:
     app: service4
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: service4-v1
@@ -176,7 +176,7 @@ spec:
   selector:
     app: service5
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: service5-v1
