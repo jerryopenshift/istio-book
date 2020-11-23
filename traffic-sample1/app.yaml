@@ -22,6 +22,10 @@ metadata:
 spec:
   
   replicas: 1
+  selector:
+    matchLabels:
+        app: service1
+        version: v1
   template:
     metadata:
       labels:
@@ -62,6 +66,10 @@ metadata:
   name: service2-v1
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+        app: service2
+        version: v1
   template:
     metadata:
       labels:
@@ -102,6 +110,10 @@ metadata:
   name: service3-v1
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+        app: service3
+        version: v1
   template:
     metadata:
       labels:
@@ -142,6 +154,10 @@ metadata:
   name: service4-v1
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+        app: service4
+        version: v1
   template:
     metadata:
       labels:
@@ -182,6 +198,10 @@ metadata:
   name: service5-v1
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+        app: service5
+        version: v1
   template:
     metadata:
       labels:
